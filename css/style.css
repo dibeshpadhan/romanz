@@ -1,0 +1,78 @@
+body{
+	margin:0 auto;
+}
+@font-face {
+    font-family: math;
+    src: url(../font/mathilde.otf);
+}
+@font-face {
+    font-family: arapey;
+    src: url(../font/Arapey-Italic.ttf);
+}
+li {
+	font-family: arapey;
+	font-size: 16px;
+	color: black;
+}
+a{
+	color: black;
+}
+.logo{
+	text-align: center;
+
+}
+.nopadding{
+	padding-left: 0 ! important;
+	padding-right: 0 ! important;
+}
+.box{
+	width: 700px;
+	padding: 30px;
+
+}
+h1{
+	font-family: math;
+	font-size: 100px;
+}
+h2{
+	font-family: math;
+	font-size: 80px;
+}
+h3{
+	font-family: arapey;
+	
+}
+p{
+	font-family: arapey;
+	font-size: 18px;
+}
+.slide{
+	background-image: url(../images/slide3.jpg);
+	background-repeat: no-repeat;
+	min-height: 400px;
+	padding-top: 60px;
+	padding-right: 60px;
+}
+.slide p{
+	float: right;
+}
+.fa-chevron-circle-right{
+	margin-right: 20px;
+	color: #DDA53F;
+}
+.fa-chevron-circle-right span{
+	font-family: arapey;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+span{
+	font-family: arapey;
+	font-size: 16px;
+	color: #585858;
+}
+.fa{
+	margin-right: 5px;
+	color: #DDA53F;
+	font-size: 16px;
+}

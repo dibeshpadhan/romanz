@@ -1,0 +1,385 @@
+body {
+	margin:0px auto;
+}
+
+/*.container{
+	width: 1040px;
+}*/
+li p{
+	font-family: open;
+}
+
+@font-face {
+    font-family: openb;
+    src: url(../font/OpenSans-CondBold.ttf);
+}
+@font-face {
+    font-family: open;
+    src: url(../font/OpenSans-CondLight.ttf);
+}
+@font-face {
+    font-family: mu;
+    src: url(../font/MUSEO300-REGULAR.OTF);
+}
+@font-face {
+    font-family: b;
+    src: url(../font/BTTTRIAL.ttf);
+}
+@font-face {
+    font-family: ro;
+    src: url(../font/Roboto-Thin.ttf);
+}
+p{
+	font-family: mu;
+}
+
+
+.img-circle{
+	width: 100px;
+	height: 100px;
+}
+.screen{
+	padding: 20px;
+	background-image: url("../images/b.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+}
+.screen span{
+	font-family: b;
+	font-size: 40px;
+	color: #ffffff;
+}
+.screen2{
+	padding: 20px;
+	background-image: url("../images/fixed.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+}
+.cen{
+
+	text-align: center;
+}
+.screen2 span{
+	font-family: b;
+	font-size: 40px;
+	color: black;
+}
+.screen3{
+	padding: 20px;
+	background-image: url("../images/Chrysanthemum.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+}
+.screen3 span{
+	font-family: b;
+	font-size: 40px;
+	color: #fff;
+}
+.screen4{
+	padding: 20px;
+	background-image: url("../images/img23.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+}
+.screen4 span{
+	font-family: b;
+	font-size: 40px;
+	color: #fff;
+}
+.screen5{
+	padding: 20px;
+	background-image: url("../images/img12.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+}
+.screen5 span{
+	font-family: b;
+	font-size: 40px;
+	color: #fff;
+}
+h1, h2, h3{
+	font-family: mu;
+	text-align: left;
+}
+.foto{
+	padding: 10px;
+	width: 175px;
+}
+.batan{
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	padding:0px 8px 8px 8px;
+	text-align:center;
+	text-transform: uppercase;
+}
+/*p:before{
+	content: url(../images/bullet.png);
+}*/
+h5{
+	color: black;
+}
+.con{
+	width: 100%;
+	height: auto;
+	background: #000000;
+	padding: 30px;
+
+}
+.con img{
+	
+	text-align: center;
+	
+}
+.cen{
+	
+	vertical-align: center;
+}
+.pull-right{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.bg{
+	width: 100%;
+	height: auto;
+	background: #e9e9e9;
+	padding: 30px;
+}
+.comment_box{
+	border: 1px solid grey;
+	min-height: 270px;
+	padding: 30px;
+}	
+
+.grey{
+	background: #aeaeae;
+	/*width: 100%;
+	height: 400px;
+	color: #fff;
+	padding: 60px;*/
+}
+
+.wel{
+	background: #3598db;
+	padding: 30px;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 4s;
+	-webkit-animation-iteration-count: infinite;
+}
+.im img{
+	margin-bottom: 5px;
+	width: 200px;
+	height: auto;
+}
+
+.wel2{
+	background: #000000;
+	padding: 50px 0 50px 0;
+}
+.wel3{
+	background: #e9e9e9;
+	padding: 50px 0 50px 0;
+}
+
+.nopadding{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.img-responsive{
+	width: 100%;
+}
+.box{
+	padding: 60px;
+}
+.hd{
+	background: #2f343a;
+	min-height: 120px;
+	padding: 20px 0 20px 0;
+}
+
+
+.slidee{
+	width: 1366px;
+	height: 400px;
+	background-image: url("../images/business/1.jpg");
+	background-attachment: fixed;
+	background-position: center bottom;
+}
+.slidee2{
+	width: 1366px;
+	height: 400px;
+	background-image: url("../images/business/2.jpg");
+	background-attachment: fixed;
+	background-position: center bottom;
+}
+.slidee3{
+	width: 1366px;
+	height: 400px;
+	background-image: url("../images/business/3.jpg");
+	background-attachment: fixed;
+	background-position: center bottom;
+}
+
+.r{
+	background: #2f343a;
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: white;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 4s;
+	-webkit-animation-iteration-count: infinite;
+}
+.line{
+	height: 1px;
+	width: 100px;
+	background: #3aa1dc;
+	margin-bottom: 15px;
+}
+
+.buton{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #3aa1dc;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px 3px 3px 3px;
+	font-size: 12px;
+}
+.buton2{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px 3px 3px 3px;
+	font-size: 12px;
+}
+.buton3{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #3aa1dc;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px 3px 3px 3px;
+	font-size: 12px;
+	color: #3aa1dc;
+	margin-bottom: 25px;
+}
+.box{
+	min-width: 250px;
+	height: auto;
+}
+
+
+
+.icon-bar{
+	color: white;
+}
+
+
+
+.fa .fa-edge{
+	color:orange;
+}
+.buton span{
+	margin-left: 15px;
+}
+.buton2 span{
+	margin-left: 15px;
+}
+.buton3 span{
+	margin-left: 15px;
+}
+.navbar {
+	background: transparent;
+	border-bottom: none;
+}
+.navbar-nav > li > a {
+    padding-bottom: 0px;
+    padding-top: 5px;
+
+}
+li{
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav > li > a:active, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+}   
+.f{
+	height: auto;
+	background-color: #d9dfc3;
+	padding: 40px;
+	border-top: 1px solid #000000;
+	
+}
+a{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+.nav {
+	padding-top: 30px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-brand{
+	margin-top: -10px;
+}
+.img-circle{
+	width: 80px;
+	height: 80px;
+}
+
+
+.navbar-toggle {
+    background-color: #2D92D6;
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 9px 10px;
+    position: relative;
+}
+.image-source-link {
+	color: #98C3D1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
